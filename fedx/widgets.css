@@ -1,0 +1,1352 @@
+/******************** widget:module ********************/
+
+.moduleSafariHide {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+
+.moduleSafariShow {
+	position:inherit;
+}
+
+.module
+{
+	background: #f5f5f5;
+	border: solid 1px #8B50A8;
+	float: left;
+	font-family: arial;
+	margin: 0 0 15px 0;
+	width: 99.9%;
+}
+
+.moduleOptional
+{
+	background: #fff;
+	border: solid 1px #ccc;
+	float: left;
+	font-family: arial;
+	margin: 0 0 15px 0;
+	width: 99.9%;
+}
+
+.modulePreference
+{
+	background: #F2F3FF;
+	border:1px solid #666; 
+	float:left;
+	font-family: arial;
+	margin: 0 0 15px 0; 
+	width: 99.9%;
+}
+
+.moduleHeader
+{
+	border-bottom: solid 2px #660099;
+	cursor: pointer;
+	float: left;
+	font-weight: bold;
+	width: 100%;
+}
+
+.moduleOptionalHeader 
+{
+	border-bottom: solid 2px #666666;
+	cursor:pointer;
+	float: left;
+	font-weight: normal;
+	width: 100%;
+}
+
+.moduleHeaderNonCollapsable
+{
+	border-bottom: solid 2px #660099;
+	float: left;
+	font-weight: bold;
+	width: 100%;
+}
+
+.moduleOptionalHeaderNonCollapsable
+{
+	border-bottom: solid 2px #666666;
+	float: left;
+	font-weight: normal;
+	width: 100%;
+}
+
+.moduleHeaderTitle 
+{
+	color: #660099;
+	float: left;
+	font-size: 15px;
+	padding: 4px 7px 4px 7px;
+}
+
+.moduleOptionalHeaderTitle
+{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	padding: 4px 7px 4px 7px;
+}
+
+.moduleHeaderButtons
+{
+	float: right;
+	padding: 3px 7px 4px 7px;
+}
+
+.moduleHeaderHelp 
+{
+	background-image: url(/framework/image/module_help.gif);
+	background-repeat: no-repeat;
+	color: #000;
+	cursor: pointer;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px 0 0 8px;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+
+.moduleHeaderHelp:focus
+{
+	outline:1px dashed #660099;
+}
+
+.moduleHeaderEdit
+{
+	background-image: url(/framework/image/module_edit.gif);
+	background-repeat: no-repeat;
+	color: #000;
+	cursor: pointer;
+	display: none;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px 0 0 8px;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+
+.moduleHeaderHide 
+{
+	background-image: url(/framework/image/module_hide.gif);
+	background-repeat: no-repeat;
+	color: #000;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px 0 0 8px;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+
+.moduleExpanded
+{
+	
+	float: left;
+	font-size: 11px;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+.moduleCollapsed
+{
+	display: none;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+.moduleCollapsedOptional
+{
+	display: none;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+.moduleExpandedDefaultCollapsedMode
+{
+	float: left;
+	font-size: 11px;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+.moduleCollapsedDefaultCollapsedMode
+{
+	display: block;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+.moduleCollapsedOptionalDefaultCollapsedMode
+{
+	display: block;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 7px 0px 7px 3px;
+	width:98%;
+}
+
+/******************** widget:table ********************/
+.tableStyle
+{
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	float: left;
+}
+
+.tableContentsHeader
+{
+	background: #FFFFFF;
+	float: left;
+}
+
+.tableContentsHeaderNotVisible
+{
+	background: #FFFFFF;
+	float: left;
+	height: 0px;
+}
+
+.tableContents
+{
+	background: #E6E6E6;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	height: 100%;
+	width: 100%;
+}
+
+.tableContentsRows
+{
+	float: left;
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.tableRowOdd
+{
+	background: #E6E6E6;
+	float: left;
+}
+
+.tableRowEven
+{
+	background: #F2F2F2;
+	float: left;
+}
+
+.tableRuler
+{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	left: -10000;
+	position: absolute;
+	visibility: hidden;
+}
+
+.tableNotLastCell
+{
+	border-left: 1px solid #CCCCCC;
+	color: #000000;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.tableLastCell
+{
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	color: #000000;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.tableNotLastHeaderCell
+{
+	background-position: top right;
+	background-repeat: no-repeat;
+	border-left: 1px solid #CCCCCC;
+	color: #000000;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.tableLastHeaderCell
+{
+	background-position: top right;
+	background-repeat: no-repeat;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	color: #000000;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.tableEmpty
+{
+	background: #FFFFFF;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	height: 100%;
+	width: 100%;
+}
+
+.tableEmptyHalf
+{
+	height: 50%;
+	width: 100%;
+}
+
+/******************** widget:floatingWindow ********************/
+.floatingWindow
+{
+	background: #fff;
+	border: 2px solid #cccccc;
+	color: #666666;
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	z-index: 2;
+}
+
+.floatingWindowRate
+{
+	background: #f5f5f5;
+	border: 2px solid #660099;
+	display: none;
+	height: 100px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	z-index: 2;
+}
+
+.floatingWindowHeader 
+{
+	border-bottom: 1px solid #cccccc;
+	color: #202020;
+	float: left;
+	font-weight: bold;
+	width: 99.9%;
+}
+
+.floatingWindowHeaderRate
+{
+	background: #660099;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+	width: 100%;
+}
+
+.floatingWindowHeaderTitle
+{
+	color: #202020;
+	float: left;
+	padding: 5px;
+}
+
+.floatingWindowHeaderTitleRate
+{
+	float: left;
+	padding: 2px;
+}
+
+.floatingWindowHeaderClose
+{
+	cursor: pointer;
+	float: right;
+	padding: 5px;
+}
+
+.floatingWindowContent
+{
+	float: left;
+	padding: 5px;
+	width: 95%;
+}
+
+.floatingWindowChooseMove
+{
+	background: #fff;
+	border: 1px solid #cccccc;
+	color: #666666;
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	z-index: 2;
+}
+
+.floatingWindowHeaderChooseMove 
+{
+	color: #202020;
+	float: left;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.floatingWindowHeaderCloseChooseMove
+{
+	cursor: pointer;
+	float: right;
+}
+.floatingWindowHeaderChooseMoveColumn
+{
+	background: #660099;
+	border: 1px solid #666;
+	color: #fff;
+	float: left;
+	font-size:12px;
+    padding-left:5px;
+	width: 49%;
+}
+
+.floatingWindowHeaderTitleChooseMove
+{
+	font-family: arial;
+	font-size: 11px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px 0 5px 0;
+}
+
+.floatingWindowChooseMoveMiddleContent
+{
+	font-family: arial;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 100%;
+}
+
+.floatingWindowChooseMoveContent
+{
+	background: #e6e6e6;
+	border: 1px solid #666;
+	float: left;
+	font-size: 11px;
+	color: #202020;
+	margin-bottom: 10px;
+}
+
+.floatingWindowChooseMoveDraggableItem
+{
+	background-color: #e6e6e6;
+    border:1px solid #f2f2f2;
+    height:20px;
+    cursor: move;
+	display: inline;
+	position: absolute;
+	vertical-align: middle;
+    padding: 2px 0 0 5px;
+}
+
+.floatingWindowChooseMoveAvailable {
+    background-color: #e6e6e6;
+    border:1px solid #f2f2f2;
+    height:22px;
+	vertical-align: middle;
+}
+
+.floatingWindowAlertIcon {
+	background-image: url(/framework/image/icon_alert_trans.gif);
+	background-repeat: no-repeat;
+	color: #660099;
+	float: left;
+	height: 165px;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+.floatingWindowAlertMessage {
+	color: #660099; 
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.floatingWindowContentFull {
+	clear: both;
+	float: none;
+	font-size: 12px;
+	background: #e6e6e6;
+	border: 1px solid #cccccc;
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 5px;
+}
+
+.floatingWindowButtonFull
+{
+	float: right;
+	margin: 15px 0 5px 5px;
+}
+
+.floatingWindowButtonGrey
+{
+    background: #666 repeat-x; 
+	border: 1px solid #ccc;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.floatingWindowButtonGrey:focus
+{
+	outline:1px dashed #660099;
+}
+
+.floatingWindowButtonDefault
+{
+    background: #660099 repeat-x; 
+	border: 1px solid #ccc;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	padding: 0;
+	margin: 0 1px 0 5px;
+	cursor: pointer;
+}
+
+.floatingWindowButtonDefault:focus
+{
+	outline:1px dashed #660099;
+}
+
+.chooseColumnsLink:focus
+{
+	outline:1px dashed #660099;
+}
+
+.floatingWindowChooseMove:focus
+{
+	outline:1px dashed #660099;
+}
+
+.floatingWindowCheckbox:focus
+{
+	outline:1px dashed #660099;
+}
+
+/******************** widget:calendar ********************/
+.calendarText
+{
+	background-color: #FFFFFF;
+	border: 1px solid #949694;
+	float: left;
+	margin: 0px 0px 2px 0px;
+	width: 120px;
+	padding: 0px 0px 0px 4px;
+}
+
+.calendarIcon
+{
+	background: transparent url(/framework/image/calendar_icon.gif) no-repeat scroll 0%;
+	color: #660099;
+	cursor: pointer;
+	float: left;
+	height: 20px;
+	margin: 0px 0px 0px 3px;
+	width: 20px;
+}
+
+.calendarWindow
+{
+	background-color:#FFFFFF;
+	display: none;
+	font-family:Arial,sans-serif;
+	font-size: 11px !important;
+	/*height: 145px;*/
+	height: auto;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 194px;
+}
+
+.calendarHeader
+{
+	border-top:1px solid #BBBBBB;
+	border-left:1px solid #BBBBBB;
+	border-right:1px solid #BBBBBB;		
+	float: left;
+	height: 20px;
+	width: 192px;
+}
+
+.calendarTitle
+{
+	
+	float: left;
+	font-weight: bold;
+	width: 156px;
+}
+
+.calendarTitleWithYearButtons
+{
+	
+	float: left;
+	font-weight: bold;
+	width: 110px;
+}
+
+.calendarEnablePreviousMonthButton
+{
+	background:transparent url(/framework/image/icon_arrow_enable_previous.gif) no-repeat scroll 50%;
+	cursor: pointer;
+	float:left;
+	height:20px;
+	width: 18px;
+
+}  	
+
+.calendarEnablePreviousMonthButton:focus
+{
+	outline:1px dashed #660099;
+}
+
+.calendarDisablePreviousMonthButton
+{
+	background:transparent url(/framework/image/icon_arrow_disable_previous.gif) no-repeat scroll 50%;
+	float:left;
+	height:20px;
+	width: 18px;
+}
+
+.calendarDisableNextMonthButton
+{
+	background:transparent url(/framework/image/icon_arrow_disable_next.gif) no-repeat scroll 50%;
+	float:left;
+	height:20px;
+	width:18px;
+}
+
+.calendarEnableNextMonthButton
+{
+	background:transparent url(/framework/image/icon_arrow_enable_next.gif) no-repeat scroll 50%;
+	cursor: pointer;
+	float:left;
+	height:20px;
+	width:18px;
+}
+
+.calendarEnableNextMonthButton:focus
+{
+	outline:1px dashed #660099;
+}
+
+.calendarEnablePreviousYearButton
+{
+	background:transparent url(/framework/image/icon_arrow_enable_previousyear.gif) no-repeat scroll 50%;
+	cursor: pointer;
+	float:left;
+	height:20px;
+	width: 18px;
+
+}  	
+
+.calendarEnablePreviousYearButton:focus
+{
+	outline:1px dashed #660099;
+}
+
+.calendarDisablePreviousYearButton
+{
+	background:transparent url(/framework/image/icon_arrow_disable_previousyear.gif) no-repeat scroll 50%;
+	float:left;
+	height:20px;
+	width: 18px;
+}
+
+.calendarDisableNextYearButton
+{
+	background:transparent url(/framework/image/icon_arrow_disable_nextyear.gif) no-repeat scroll 50%;
+	float:left;
+	height:20px;
+	width:18px;
+}
+
+.calendarEnableNextYearButton
+{
+	background:transparent url(/framework/image/icon_arrow_enable_nextyear.gif) no-repeat scroll 50%;
+	cursor: pointer;
+	float:left;
+	height:20px;
+	width:18px;
+}
+
+.calendarEnableNextYearButton:focus
+{
+	outline:1px dashed #660099;
+}
+
+.calendarDaysOfTheWeek
+{
+	border-left:1px solid #BBBBBB;
+	border-right:1px solid #BBBBBB;
+	float: left;
+	font-weight: bold;
+	width: 192px;
+}
+
+.calendarBody
+{
+	border-bottom:1px solid #BBBBBB;
+	border-left:1px solid #BBBBBB;
+	border-right:1px solid #BBBBBB;	
+	float: left;
+	width: 192px;
+}
+
+.calendarWeek
+{
+	background-color: #E6E6E6;
+	float: left;
+}
+
+.calendarWeekDay
+{
+	border: 1px solid #FFFFFF;
+	float: left;
+	font-family:Arial,sans-serif !important; /* Added !important here and below to fix a defect caused by fedexascend30.css in GTM page */
+	font-size:11px !important;
+	height: 20px;
+	text-align:center;
+	width: 25px;
+}
+
+.enabledDateStyle
+{
+	border: 1px solid #E6E6E6;
+	cursor: pointer;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px;	
+}
+.enabledDateStyle:focus
+{
+	background-color: #660099;
+	border: 1px solid #660099;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px;
+	
+}
+.disabledDateStyle
+{
+	border: 1px solid #E6E6E6;	
+	color: #AAAAAA !important;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px;
+}
+
+.selectedDateStyle
+{
+	background-color: #999999;
+	border: 1px solid #999999;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px; 
+}
+
+.selectedDateStyle:focus{
+	background-color: #660099;
+	border: 1px solid #660099;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px;
+}
+
+.mouseOverDateStyle
+{
+	background-color: #660099;
+	border: 1px solid #660099;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	float: left;
+	font-family:Arial,sans-serif !important;
+	font-size:11px !important;
+	height: 20px;
+	padding: 2px 0px 0px;
+	text-align:center;
+	width: 25px;
+}
+
+/******************** menu:module ********************/
+.menuBar
+{
+	cursor: pointer;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-decoration:none;
+}
+
+.menuBarContainer
+{
+	float:none;	
+  	padding: 0 0 0 0;
+  	width:745px;
+}
+
+.mainMenuBarItem
+{
+	background-color: #F5F5F5;
+	border: 1px solid #666666;
+	border-bottom: none; 
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 2px 0 0;
+	padding:2px 2px 2px 6px;
+	position: relative;
+	text-decoration:none;
+	width: 150px;
+}
+
+.mainMenuBarCurrentItem
+{
+	background-color: #666; 
+	border: 1px solid #666666;
+	border-bottom: none; 
+	float: left; 
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 2px 0 0;
+	padding:2px 2px 2px 6px;
+	position: relative;
+	text-decoration: none;
+	width: 150px;
+}
+
+.menuCurrentItemDivWithItemsDown
+{
+	background-color: #666; 
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_white_down.gif);
+	color: #fff; 
+	font-weight: bold; 
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	position: relative;
+	text-decoration: none;
+}
+
+.menuCurrentItemDivWithItemsUp
+{
+	background-color: #666; 
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_white_up.gif);
+	color: #fff; 
+	font-weight: bold; 
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	position: relative;
+	text-decoration: none;
+}
+
+.menuCurrentItemDivNoItems
+{
+	background-color: #666; 
+	color: #fff; 
+	font-weight: bold; 
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	position: relative;
+	text-decoration: none;
+}
+
+.menuItemDivWithItemsDown
+{
+	background-color : #F5F5F5;
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_down.gif);
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	position: relative;
+}
+
+.menuItemDivWithItemsUp
+{
+	background-color : #F5F5F5;
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_up.gif);
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	position: relative;
+}
+
+.menuItemDivNoItems
+{
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	position: relative;
+}
+
+.menuItemDivNoItemsHighlighted
+{
+	background-color: #660099; 
+	color: #fff; 
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	position: relative;
+}
+
+.mainMenuBarItemHighlighted
+{
+	background-color: #660099; 
+	border: 1px solid #666666; 
+	border-bottom: none;
+	color: #fff; 
+	float: left;
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 2px 0 0;
+	padding:2px 2px 2px 6px;
+	text-decoration:none;
+}
+
+.mainMenuBarItemNoItems
+{
+	background-color : #F5F5F5;
+	border: 1px solid #666666; 
+	border-bottom: none; 
+	float: left;
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 2px 0 0;
+	padding:2px 2px 2px 6px;
+	text-decoration:none;
+}
+ 
+.firstMenuItemHighlighted
+{
+	background-color: #660099;
+	border: 1px solid #660099; 
+	color: #fff;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	postion: relative;	
+	text-decoration: none; 
+	z-index: 1;
+}
+
+.menuItemHighlighted
+{
+	background-color: #660099; 
+	border-color:#660099;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	color: #fff;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none; 
+	padding: 2px 2px 2px 6px;
+	postion: relative;
+	text-decoration: none; 
+	z-index: 1;
+}
+
+.menuItemsContainer
+{
+	display: none;
+	border-bottom: none; 
+	float: auto;
+	left: 0pt;	
+	margin: 0pt;
+	margin-left: 0pt;
+	position: absolute;
+	padding: 0pt ;
+	text-decoration: none; 
+	z-index: 1;
+}
+
+.firstMenuItem
+{
+	background-color: #f4f4f4;
+	border: 1px solid #666; 
+	color: #202020;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	postion: relative;
+	text-decoration: none; 
+	z-index: 1;
+}
+
+.menuItem
+{
+	background-color: #f4f4f4;
+	border: 1px solid #666; 
+	border-top: none; 
+	color: #202020; 
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	postion: relative;
+	text-decoration: none; 
+	z-index: 1;
+}
+
+/******************** helpmenu:module ********************/
+.helpMenuContainer{
+	cursor: pointer;
+ 	float:right;
+	padding: 2px 0px 0px 15px;
+	width: 160px;  	
+}
+
+.helpMenuTitle {
+	float: left; 
+	height: 20px; 
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	text-decoration: none;
+}
+
+.helpMenuIcon
+{
+	background-repeat: no-repeat;	
+	background-image: url(/framework/image/icon_help.gif);
+	float: left;
+	height: 20px; 
+	margin: 0pt;
+	padding: 0pt;
+	text-decoration:none;
+	width: 18px;
+}
+
+.helpMenuDivArrowDown
+{
+	background-color: #CCCCCC;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_down.gif);
+	font-family: Arial,sans-serif;
+	font-size: 11px;
+	font-size-adjust: none;
+	height: 14px; 
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.helpMenuDivArrowUp
+{
+	background-color: #CCCCCC;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	background-image: url(/framework/image/arrow_up.gif);
+	font-family: Arial,sans-serif;
+	font-size: 11px;
+	font-size-adjust: none;
+	height: 14px; 
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.helpfirstMenuItemHighlighted
+{ 
+	background-color: #660099;
+	border: 1px solid #660099; 
+	color: #fff;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	height: 15px; 	 
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	text-decoration: none; 
+}
+
+.helpmenuItemHighlighted
+{
+	background-color: #660099; 
+	border-color:#660099;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	color: #fff;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	height: 15px; 
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none; 
+	padding: 2px 2px 2px 6px;
+	text-decoration: none; 
+}
+
+.helpMenuItemsContainer
+{
+	display: none;
+	border-bottom: none; 
+	float: auto;	
+	margin: 0pt;
+	position: absolute;
+	padding: 0pt 0pt 0pt 0pt;
+	text-decoration: none;
+	z-index: 1;
+}
+
+.firstHelpMenuItem
+{ 
+	background-color: #f4f4f4;
+	border: 1px solid #666; 
+	color: #202020;
+	display: block;
+	font-size:11px;
+	font-weight: normal;
+	height: 15px; 
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	text-decoration: none; 
+}
+
+.helpMenuItem
+{
+	background-color: #f4f4f4;
+	border: 1px solid #666; 
+	border-top: none; 
+	color: #202020; 
+	display: block;
+	float: none;
+	font-size:11px;
+	font-weight: normal;
+	height: 15px;  
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 2px 2px 2px 6px;
+	text-decoration: none; 
+}
+
+/******************** widget:suggest ********************/
+.suggestPopup 
+{ 
+	position: relative;
+}
+
+.suggestSearchable
+{
+	margin-top: -2px; 
+	position: absolute;
+	
+}
+
+/******************** widget:alphaNumericLink ********************/
+.leftAligned
+{
+	float: left;
+	margin: 2px;
+}
+
+.firstLeftAligned
+{
+	float: left;
+	margin-right: 2px;
+}
+
+.alphaChar
+{
+	color: #660099;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+	float: left;
+	margin: 2px;
+}
+
+.alphaCharDisabled
+{
+	color: #000000;
+	font-weight: normal;
+	float: left;
+	margin: 2px;
+}
+
+.alphaCharSelected
+{
+	color: #660099;
+	cursor: pointer;
+	font-weight: bold;
+	float: left;
+	margin: 2px;
+}
+
+/******************** widget:busy ********************/
+.outerDiv
+{
+	height: 95px;
+	position: absolute;
+	width: 280px;
+	z-index: 3;
+}
+
+.busyDiv
+{
+	background-color: #CCCCCC;
+	border: thin solid #666666;
+	height: 85px;
+	left: 0px;
+	position: relative;
+	top: 0px;
+	width: 270px;
+	z-index: 3;
+}
+
+.indicator
+{
+	background-image: url(/framework/image/busy.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	left: 25px;
+	position: absolute;
+	top: 20px;
+	width: 220px;
+	z-index: 3;
+}
+
+.busyMessage
+{
+	color: #660099;
+	font-size: 14;
+	position: absolute;
+	text-align: center;
+	top: 45px;
+	width: 100%;
+}
+
+.shadowDiv
+{
+	background-color: #000000;
+	filter: alpha(opacity=50);
+	height: 85px;
+	left: 10px;
+	opacity: .5;
+	position: absolute;
+	top: 10px;
+	width: 270px;
+} 
+.dropDownButton:focus,.calendarWindow:focus,.floatingWindowContentFull:focus,.calendarIcon:focus {
+	outline:1px dashed #660099;
+}
+.floatingWindowChooseMoveDraggableItem:focus{
+	border:1px dashed #660099;
+	outline:none;
+}
+
+
+

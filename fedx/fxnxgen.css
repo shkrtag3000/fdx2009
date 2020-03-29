@@ -1,0 +1,114 @@
+/* CHANGES HAVE BEEN COMMENTED WITHIN THE CODE. */
+/* NXGEN body */
+/*
+body{margin:0;padding:0;background-color:#FFFFFF;font:11px Arial,Helvetica,Verdana,sans-serif;color:#202020}
+*/
+/* NXGEN h1,h2,h3,h4,h5,h6 */
+/*
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+h1{color:#660099;font-size:18px;margin-bottom:10px}
+h2{color:#660099;font-size:15px;font-weight:bold}
+h3{color:#000;font-size:13px}
+*/
+/* NXGEN div,p,.content */
+div,p,.content{margin:0;padding:0}
+p{margin-bottom:10px;padding:0}
+/* NXGEN table */
+table{margin:0;padding:0}
+/* NXGEN th,td */
+th{vertical-align:top;font-size:15px;text-align:left}
+td{vertical-align:top;font-size:11px}
+ul{margin-top:0px;margin-bottom:0px}
+/* NXGEN appwrap */
+.appwrap{border:1px solid #666;border-top-width:13px;width:745px}
+.appname{margin-bottom:5px}
+p.denotereqfield{/* background:transparent url(/images/ascend/shared/nxgen/icon_required.gif) no-repeat 0 2px;*/
+background:transparent url(../images/icon_required.gif) no-repeat 0 2px;padding-left:10px;margin:0 0 5px 0;font-size:11px}
+.alertwrap{font-size:11pt;color:#660099;font-weight:bold;padding-left:10px}
+.alertwrap2{font-size:14pt;color:#660099;font-weight:500;padding-left:10px}
+/* NXGEN form modules */
+table.formmodule{width:100%}
+.formmodule{background-color:#F5F5F5;border:1px solid #8B50A8}
+.formmodule th{text-align:left;border-bottom:solid 2px #660099;padding:4px 7px 4px 7px;color:#660099;font-weight:bold}
+.formmodule td{vertical-align:top;padding:4px 7px 0 7px}
+.formmodule td.prompt{padding:8px 3px 2px 16px;width:100px}
+.formmodule td.required{background:transparent url(../images/icon_required.gif) no-repeat 6px 10px}
+.optional{background-color:#fff;border:1px solid #ccc}
+.optional th{border-bottom:solid 2px #ccc;color:#000;font-weight:normal}
+.alternate th{border-bottom:none;width:161px}
+.formmodulesectionhead,h3.sectionhead{border-bottom:1px solid #000;margin:0 0 5px 0;paddding:0 0 4px 0;color:#000;font-size:13px}
+.formmodulesubhead,h3.subhead{margin:0;paddding:0 0 4px 0;color:#000;font-size:13px}
+.formmodule .summary{font-weight:bold}
+.optional .summary{font-weight:normal}
+/* NXGEN Edit/Hide/Help */
+a.edit{padding:0 0 0 15px;background-position:center left;background-repeat:no-repeat;background-image:url(../images/icon_a_edit.gif);color:#000;font-size:12px;font-weight:bold}
+a.hide{padding:0 0 0 15px;background-position:center left;background-repeat:no-repeat;background-image:url(../images/icon_a_hide.gif);color:#000;font-size:12px;font-weight:bold}
+a.helpsmall{padding:0 0 0 15px;background-position:center left;background-repeat:no-repeat;background-image:url(../images/icon_a_help_small.gif);color:#000 !important;font-size:12px;font-weight:bold}
+a:link,a:active{color:#660099}
+a:visited{color:#993399}
+a:link.newsalert,a:active.newsalert,a:visited.newsalert{font-size:11px;color:#FF0000}
+a:link.white,a:active.white,a:visited.white{color:#FFFFFF}
+a.edit:visited,a.hide:visited,a.helpsmall:visited{color:#000}
+/* NXGEN buttons */
+.buttonpurple{border:none;border:1px solid #ccc;margin-right:8px;padding:0;height:20px;background:#660099 url(../images/bg_button_purple.gif) repeat-x;color:#fff;font-weight:bold;font-size:11px}
+.buttongray{border:none;border:1px solid #ccc;margin:0;padding:0;height:20px;background:#666 url(../images/bg_button_gray.gif) repeat-x;color:#fff;font-weight:bold;font-size:11px}
+/* NXGEN form input widths */
+input,select,textarea{font:11px Arial,Helvetica,Verdana,sans-serif}
+.textfull{width:214px}
+.texthalf{width:106px}
+.text1quarter{width:50px}
+.text3quarters{width:173px}
+.text1third{width:73px}
+.text2thirds{width:153px}
+.selectfull{width:220px}
+.selecthalf{width:110px}
+.select1quarter{width:57px}
+.select3quarters{width:177px}
+.select1third{width:77px}
+.select2thirds{width:157px}
+.textareafull{width:223px}
+.textareahalf{width:113px}
+.textarea1quarter{width:53px}
+.textarea3quarters{width:173px}
+.textarea1third{width:73px}
+.textarea2thirds{width:153px}
+/* NXGEN error */
+.error{color:#FF0000;font-weight:bold}
+/* NXGEN resultstable and resultstablegray (there is only one results table style) */
+.resultstable,.resultstablegray{border-top:1px solid #000;border-bottom:1px solid #000;border-left:1px solid #ccc}
+.resultstable td,tr.resultswhite td,tr.resultswhitesmall td{padding:2px;border-right:1px solid #ccc;background-color:#F2F2F2}
+tr.resultsgray td,tr.resultsgraysmall td,.resultstable tr.alt td{padding:2px;border-right:1px solid #ccc;background-color:#E6E6E6}
+.resultstable .required,.resultstablegray .required{background:#fff url(../images/icon_required.gif) no-repeat 2px 5px;padding-left:12px}
+.resultstable th,.resultstablegray th,td.resultstableheader,.resultsheader{vertical-align:top;text-align:left;padding:4px 2px 4px 2px;border-right:1px solid #ccc;background-color:#fff;color:#202020;font-weight:bold;font-size:11px}
+.resultstable th a,.resultstablegray th a{color:#202020}
+td.center{text-align:center}
+/* NXGEN steps - applied to the ul,on or off gets applied to the li,and the span within the li is th number */
+.steps{list-style:none;margin:5px 0 0 0;padding:0}
+.steps li{display:block;float:left;margin:0 15px 0 0;padding-top:0;height:17px;line-height:17px;font-size:11px}
+.steps li.alt{display:none}
+.steps li a{color:#666;text-decoration:none}
+.steps li span{padding:0 6px 0 5px;font-size:11px}
+.steps li.on{background:transparent url(../images/icon_step_on.gif) no-repeat left center;color:#660099;font-weight:bold}
+.steps li.on span{color:#fff}
+.steps li.off{background:transparent url(../images/icon_step_off.gif) no-repeat left center;color:#666}
+#ccSecureWin.floatingWindow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CCCCCC;
+    color: #666666;
+    display: block;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    width: 410px;
+    width: 410px;
+    z-index: 2;
+}
+/*ADA CHANGE*/
+.ada_logonRadioButton:focus, .fxg-header__logo:focus, .on:focus{
+    outline:1px dashed #660099;
+ }
+
+#commonstep:focus
+{
+    outline:1px dashed #660099;
+ } 
